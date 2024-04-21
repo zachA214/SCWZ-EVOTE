@@ -9,7 +9,7 @@ Zachary Adelson       11757305    zachary.adelson@wsu.edu <br>
 ## Functionality
 - This project allows users to submit votes for a variety of elections, the amount of elections displayed is based on admins creating said elections. 
 - Users must login before voting so that
-  1. Users have an electoral accont
+  1. Users have an electoral account
   2. Users can't repeat vote
 ## Groups
 ### Users
