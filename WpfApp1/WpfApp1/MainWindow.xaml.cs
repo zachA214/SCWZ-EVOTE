@@ -23,5 +23,22 @@ namespace WpfApp1
             InitializeComponent();
 
         }
+        private void buttonPressed(object sender, RoutedEventArgs e)
+{
+    Button clickedButton = sender as Button;
+    if (clickedButton != null)
+    {
+        if (clickedButton.Name == "loginButton")
+        {
+            //validate user
+            string message = $"Please enter voting code:";
+        }
+    }
+}
+
+private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+{
+
+}
     }
 }
