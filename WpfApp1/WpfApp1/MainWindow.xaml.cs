@@ -34,6 +34,25 @@ namespace WpfApp1
             //validate user
             string message = $"Please enter voting code:";
         }
+        else if (clickedButton.Name == "signUpButton")
+    {
+        //something??
+        string message = $"aaa";
+    }
+    else if (clickedButton.Name == "Enter")
+    {
+        //Check with voting codes we have
+        //show voting info and ask for input
+        clickedButton.Name = "Vote!";
+        clickedButton.Content = "Vote";
+    }
+    else if (clickedButton.Name == "Vote!")
+    {
+        //put in data
+        //go back to sign in
+        clickedButton.Name = "loginButton";
+        clickedButton.Content = "log in";
+    }
     }
 }
 
