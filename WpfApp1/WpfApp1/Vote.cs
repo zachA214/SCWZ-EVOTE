@@ -8,5 +8,24 @@ namespace WpfApp1
 {
     internal class Vote
     {
+        Ballot userBallot = new Ballot();
+        private bool voteMade;
+        public Vote()
+        {
+            voteMade = false;
+        }
+        bool getVoteMade()
+        {
+            return voteMade;
+        }
+        void toggleVoteState()
+        {
+            voteMade = !voteMade;
+        }
+
+        public void castVote(string voteChoice)
+        {
+            userBallot.castVote(voteChoice);
+        }
     }
 }
