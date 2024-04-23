@@ -20,10 +20,14 @@ namespace WpfApp1
     {
         List<string> candidates = new List<string>();
         TextBox input = new TextBox();
-        Button button = new Button();
+        Button addCandidateButton = new Button();
+        Button exitAddCandidateButton = new Button();
+        TextBox codeInput = new TextBox();
+        Button codeButton = new Button();
+        string voteCode = "";
         public void createGraphics()
         {
-            //initialize the graphics
+            addCandidateButton.Content = "Add candidate";
         }
 
         public void showGraphics()
@@ -37,11 +41,27 @@ namespace WpfApp1
             return candidates;
         }
 
-        public void handleInput(string candidate)
+        public void addCandidateButton_Click(object sender, RoutedEventArgs e)
         {
-            //when button is pressed to add a candidate (find how to handle that), add to the list
-            //handle the if button pressed in main most likely?
-            candidates.Add(candidate);
+            candidates.Add(input.Text);
+        }
+
+        public void exitAddCandidateButton_Click(object sender, RoutedEventArgs e)
+        {
+            //clear this screen and go back to the login screen
+        }
+
+        public void codeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(codeInput.Text != "")
+            {
+                voteCode = codeInput.Text;
+            }
+        }
+
+        public string getVoteCode()
+        {
+            return voteCode;
         }
     }
 }
