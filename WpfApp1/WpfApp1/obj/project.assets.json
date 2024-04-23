@@ -490,24 +490,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chris\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\zgasw\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\obj\\",
+      "projectPath": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\zgasw\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\zgasw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
