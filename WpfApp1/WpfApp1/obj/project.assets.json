@@ -490,19 +490,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zgasw\\.nuget\\packages\\": {}
+    "C:\\Users\\sarah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-      "packagesPath": "C:\\Users\\zgasw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zgasw\\OneDrive\\Desktop\\Class Work\\Spring 2024\\CptS322\\Voting Project\\WpfApp1\\WpfApp1\\obj\\",
+      "projectPath": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+      "packagesPath": "C:\\Users\\sarah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zgasw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sarah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
