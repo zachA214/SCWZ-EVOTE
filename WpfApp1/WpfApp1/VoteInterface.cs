@@ -18,17 +18,21 @@ namespace WpfApp1
 {
     internal class VoteInterface
     {
-        Button button = new Button();
-        TextBox textbox = new TextBox();
-        ListBox candidateList = new ListBox();
+        Button voteButton = new Button();
 
-        public String getUserInput()
+        //maybe tweak this to fit what we are going for better
+        ListBox candidateList = new ListBox();
+        
+        string userChoice = "";
+
+        public string getUserInput()
         {
-            return "yes";
+            return userChoice;
         }
 
         public void createGraphics()
         {
+            voteButton.Content = "Vote!";
             //view data and make the graphics based on that
         }
 

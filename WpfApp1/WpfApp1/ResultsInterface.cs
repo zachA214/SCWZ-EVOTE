@@ -22,13 +22,19 @@ namespace WpfApp1
 
         public void createGraphics()
         {
-            //get results and create a graph based on said data (find graphinc utility)
+            returnButton.Content = "return to login";
+            //show results, need acccess to voting results
         }
 
         public void showGraphics()
         {
             //clear screen
             //show the components you have
+        }
+
+        public void returnButton_Click(object sender, RoutedEventArgs e)
+        {
+            //return to the main screen
         }
     }
 }
