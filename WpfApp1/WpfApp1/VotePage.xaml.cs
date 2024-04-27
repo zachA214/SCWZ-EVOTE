@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Google.Cloud.Storage.V1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace WpfApp1
 {
     /// <summary>
@@ -23,6 +25,11 @@ namespace WpfApp1
         public VotePage()
         {
             InitializeComponent();
+        }
+
+        private void button_click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

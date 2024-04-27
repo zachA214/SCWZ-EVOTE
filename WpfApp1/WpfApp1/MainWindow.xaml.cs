@@ -24,42 +24,17 @@ namespace WpfApp1
             InitializeComponent();
 
         }
-        private void buttonPressed(object sender, RoutedEventArgs e)
-{
-    Button clickedButton = sender as Button;
-    if (clickedButton != null)
-    {
-        if (clickedButton.Name == "loginButton")
+       
+        private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            //validate user
-            string message = $"Please enter voting code:";
+            signIn.Navigate(new Uri("VotePage.xaml", UriKind.Relative));
+            signIn.Visibility = Visibility.Visible;
+            //MainWindow.VisibilityProperty.Equals(Visibility.Hidden);
         }
-        else if (clickedButton.Name == "signUpButton")
-    {
-        //something??
-        string message = $"aaa";
-    }
-    else if (clickedButton.Name == "Enter")
-    {
-        //Check with voting codes we have
-        //show voting info and ask for input
-        clickedButton.Name = "Vote!";
-        clickedButton.Content = "Vote";
-    }
-    else if (clickedButton.Name == "Vote!")
-    {
-        //put in data
-        //go back to sign in
-        clickedButton.Name = "loginButton";
-        clickedButton.Content = "log in";
-    }
-    }
-}
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
-private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-{
-
-}
+        }
     }
 
 }
