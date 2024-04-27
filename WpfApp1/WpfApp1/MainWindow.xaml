@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="EVOTE" Height="350" Width="525">
+        Title="EVOTE" Height="1920" Width="1080">
     <Grid>
         <Grid.RowDefinitions>
     <RowDefinition Height="82*"/>
@@ -19,5 +19,8 @@
 <TextBlock HorizontalAlignment="Left" Margin="202,86,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
 <TextBlock HorizontalAlignment="Left" Margin="202,130,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Center" Margin="0,151,0,0" VerticalAlignment="Top" Width="120" Grid.RowSpan="2"/>
+
+        <Frame Name="signIn" NavigationUIVisibility="Hidden" />
+
     </Grid>
 </Window>
