@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
-        "packagesPath": "C:\\Users\\sarah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarah\\Source\\Repos\\zachA214\\SCWZ-EVOTE\\WpfApp1\\WpfApp1\\obj\\",
+        "projectPath": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\OneDrive - Washington State University (email.wsu.edu)\\School Stuff\\Y2S2\\CPTS 322\\final project\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sarah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

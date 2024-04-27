@@ -8,20 +8,20 @@ namespace WpfApp1
 {
     internal class ElectionResults
     {
-        public ElectionResults(int totalVotes, int winningCandidates, int candidates) 
+        public ElectionResults(string totalVotes, string winningCandidates, string candidates) 
         {
             this.totalVotes = totalVotes;
             this.winningCandidates = winningCandidates;
             this.candidates = candidates;
         }
 
-        int totalVotes;
-        int winningCandidates;
-        int candidates;
+        string totalVotes;
+        string winningCandidates;
+        string candidates;
 
-        void showWinners() { }
+        string showWinners() { return winningCandidates; }
 
-        void showVotes() { }
+        string showVotes() { return totalVotes; }
 
     }
 }
