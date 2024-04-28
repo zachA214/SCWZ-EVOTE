@@ -6,15 +6,18 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="VotePage" Height="1080" Width=" 1920" Background="Blue">
+      Title="VotePage" Height="1080" Width=" 1920" Background="white">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1920*"/>
-            <RowDefinition Height="1080*"/>
-        </Grid.RowDefinitions>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="370,225,0,0" VerticalAlignment="Top" Click="button_click"/>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Name="voteTextBox"  Text="Choose canidate to vote for: " Margin="0,0,0,10"/>
+        <ItemsControl VerticalAlignment="Center" ItemsSource="{Binding testList}" HorizontalAlignment="Center" Name="buttonList">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Content="{Binding}" Click="button_click" Width="100" Height="40" FontSize="14" Margin="0,0,0,20"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
 
-
-    </Grid>
+        </ItemsControl>
+        <Button Content="Exit" Height="20" Width="50"/>
+    </StackPanel>
 </Page>

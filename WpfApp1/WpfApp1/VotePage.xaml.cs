@@ -22,14 +22,31 @@ namespace WpfApp1
     /// </summary>
     public partial class VotePage : Page
     {
+
+        public List<string> testList { get; } = new List<string>
+        {
+            "Zach",
+            "Willow",
+            "Christian",
+            "Sarah"
+        };
+
         public VotePage()
         {
             InitializeComponent();
+            DataContext = this;
         }
 
         private void button_click(object sender, RoutedEventArgs e)
         {
-            
+            if(sender is Button button && button.Content is string name)
+            {
+                //put in data, record that the user has voted
+                MessageBox.Show($"Vote for {name} recorded");
+                voteTextBox.Text = "Vote has been recorded, please press exit";
+                buttonList.Visibility = Visibility.Hidden;
+
+            }
         }
     }
 }

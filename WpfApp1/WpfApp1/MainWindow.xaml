@@ -7,19 +7,24 @@
         mc:Ignorable="d"
         Title="EVOTE" Height="1080" Width="1920">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1920*"/>
-            <RowDefinition Height="1080*"/>
-        </Grid.RowDefinitions>
-        <Button x:Name="loginButton" Content="Log in" HorizontalAlignment="Left" Margin="970,323,0,0" VerticalAlignment="Top" Click="loginButton_Click"/>
-        <Border x:Name="signUpButton" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="185" Margin="943,195,0,0" VerticalAlignment="Top" Width="154"/>
-        <Button Content="Sign up" HorizontalAlignment="Left" Margin="1036,323,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="960,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBlock HorizontalAlignment="Left" Margin="962,205,0,0" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="962,248,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="960,269,0,0" VerticalAlignment="Top" Width="120"/>
 
-        <Frame Name="signIn" NavigationUIVisibility="Hidden" Margin="-10,0,0,0" Grid.RowSpan="2" />
+        <Border x:Name="signUpButton" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="185" VerticalAlignment="Center" Width="154">
+            <StackPanel>
+                <TextBlock Text="Username:" Margin="0,0,0,10"/>
+                <TextBox Text=" " Width="120" TextChanged="TextBox_TextChanged" Margin="0,0,0,10"/>
+                <TextBlock Text="Password:" Margin="0,0,0,10"/>
+                <PasswordBox VerticalAlignment="Top" Width="120" Margin="0,0,0,10"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="loginButton" Content="Log in" HorizontalAlignment="Left" Width="50" Height="20" VerticalAlignment="Top" Click="loginButton_Click" Margin="10,0,30,0"/>
+                    <Button Content="Sign up" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                </StackPanel>
+            </StackPanel>
+        
+        </Border>
+        
+        
+        
+        <Frame Name="signIn" NavigationUIVisibility="Hidden" Margin="0,-8,0,-8" Width="1920" Height="1080"/>
 
     </Grid>
 </Window>
