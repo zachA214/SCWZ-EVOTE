@@ -48,5 +48,9 @@ namespace WpfApp1
 
             }
         }
+        private void exit_click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
