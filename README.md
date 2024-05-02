@@ -16,3 +16,8 @@ Zachary Adelson       11757305    zachary.adelson@wsu.edu <br>
 - Users are the voters, they have an account with login details, and have one vote per election
 ### Admins
 - Admins create elections and manage details of elections (who can vote, who are the options, etc.)
+
+## Usage Instructions
+1. Clone the Github repo into your own system
+2. Make sure you have the .NET framework on Visual Studio Community 2022 installed
+3. Simply run the program inside the .sln file
