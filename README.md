@@ -20,4 +20,7 @@ Zachary Adelson       11757305    zachary.adelson@wsu.edu <br>
 ## Usage Instructions
 1. Clone the Github repo into your own system
 2. Make sure you have the .NET framework on Visual Studio Community 2022 installed
-3. Simply run the program inside the .sln file
+3. Simply run the program inside the .sln file; Once program is running
+- Log in (Real account not needed authentication not fully implemented)
+- Vote on the election
+- Exit the program
